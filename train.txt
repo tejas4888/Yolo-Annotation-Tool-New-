@@ -1,0 +1,8 @@
+data/custom/images/cat-1.jpg
+data/custom/images/cat-2.jpg
+data/custom/images/cat-3.jpg
+data/custom/images/cat-4.jpg
+data/custom/images/cat-5.jpg
+data/custom/images/dog-1.jpg
+data/custom/images/dog-2.jpg
+data/custom/images/dog-3.jpg
