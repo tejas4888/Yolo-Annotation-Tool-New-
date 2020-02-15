@@ -1,6 +1,7 @@
 # Yolo-Annotation-Tool-New
 
 Put all images in the "images" folder
+
 Add all classes to "classes.txt" file.
 
 Do steps:
