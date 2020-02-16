@@ -1,6 +1,6 @@
 # Yolo-Annotation-Tool-New
 
-Put all images in the "images" folder
+Put all images in the "images" folder under respective categorical folders.
 
 Add all classes to "classes.txt" file.
 
