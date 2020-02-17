@@ -152,11 +152,11 @@ class LabelTool():
             except ValueError as ve:
                 tkmb.showerror("Error!", message = "The folder should be numbers")
                 return
-        if not os.path.isdir('./Images/%s' % self.category):
+        if not os.path.isdir('./images/%s' % self.category):
            tkmb.showerror("Error!", message = "The specified dir doesn't exist!")
            return
         # get image list
-        self.imageDir = os.path.join(r'./Images', '%s' %(self.category))
+        self.imageDir = os.path.join(r'./images', '%s' %(self.category))
         self.imageList = glob.glob(os.path.join(self.imageDir, '*.jpg'))
         if len(self.imageList) == 0:
             print('No .jpg images found in the specified dir!')
@@ -168,9 +168,9 @@ class LabelTool():
         self.total = len(self.imageList)
 
          # set up output dir
-        if not os.path.exists('./Labels'):
-            os.mkdir('./Labels')
-        self.outDir = os.path.join(r'./Labels', '%s' %(self.category))
+        if not os.path.exists('./labels'):
+            os.mkdir('./labels')
+        self.outDir = os.path.join(r'./labels', '%s' %(self.category))
         if not os.path.exists(self.outDir):
             os.mkdir(self.outDir)
         self.loadImage()
