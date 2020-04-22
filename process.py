@@ -30,5 +30,8 @@ for current_dir in classes:
 	        counter = 1
 	        file_test.write("data/custom/"+current_dir + "/" + title + '.jpg' + "\n")
 	    else:
-	        file_train.write("data/custom/"+current_dir + "/" + title + '.jpg' + "\n")
+	        #file_train.write("data/custom/"+current_dir + "/" + title + '.jpg' + "\n")
+	        #Commented for directing entire set to validation
+	        file_test.write("data/custom/"+current_dir + "/" + title + '.jpg' + "\n")
+	        
 	        counter = counter + 1

@@ -7,9 +7,10 @@ Add all classes to "classes.txt" file.
 Do steps:
 ```
 run main.py
-run process.py
+run check.py (this will remove redundant label files)
+run process.py (note that images are written on valid.txt for validation set)
 ```
 
-NOTE: If you use new annotation tool, please create classes.txt file and write all classes what you train the objects. Because i read the all classes from classes.txt.
+NOTE: If you use new annotation tool, please create classes.txt file and write all classes what you train the objects. Because I read the all classes from classes.txt.
 
 The dataset is ready for yolo training.

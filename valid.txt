@@ -1,0 +1,4 @@
+data/custom/images/esophagitis/1ee19293-94d5-4c89-8c8e-9baf78801ec2.jpg
+data/custom/images/polyps/0e4ed20c-2c4e-45be-a183-c6f61453b45c.jpg
+data/custom/images/polyps/0e5ef0b5-934c-4da6-bca9-2a607f5664f5.jpg
+data/custom/images/polyps/0fa8810f-f91f-4434-931b-458eabe9543e.jpg
